@@ -1,0 +1,177 @@
+:root {
+    --orange-color: #DE9919;
+    --light-blue-color: #4C78E0;
+    --dark-color: #000000;
+    --light-color: #EAE6E6
+    --dark-blue-color: #132A59
+}
+
+/* styles.css */
+#unveiling-africa-section {
+    background-image: url('images/mt-kilimanjaro-image.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* Add other styles specific to this section */
+    padding: 50px;
+    color: white;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", serif;
+}
+
+.wrapper {
+    max-width: 1134px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* Buttons */
+
+.btn {
+    padding: 16px 72px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 24px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.btn.white {
+    background: var(--light-color);
+}
+
+.btn.dark {
+    background: var(--orange-color);
+}
+
+header {
+    height: 100vh;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 1134px;
+    top: 36px;
+    z-index: 100;
+
+}
+
+nav .logo {
+    height: 40px;
+    top: 18px;
+    left: 13px;
+    font-family: Roboto Serif;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 20px ;
+    margin-left: 20px;
+     color: white;
+    
+
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    list-style: none;
+    margin: 0   ;
+}
+
+nav ul li a {
+    font-family: Roboto Serif;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: none;
+
+}
+
+/* Hero Section */
+
+.hero-section {
+    position: relative;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url('images/maasai-image1.png'); /* Replace with your image path */
+    background-size: cover; /* Adjust to your preference */
+    background-position: center bottom 20%; /* Adjust to your preference */
+    line-height: 1.5;
+    padding-top: 60px;
+    
+}
+
+
+.hero-section .left h1 {  
+    
+    color: white;
+    width: 452px;
+    height: 318px;
+    top: 247px;
+    left: 95px;
+    border: 3px;
+    font-family: Abel;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 84px;
+    letter-spacing: 0.31476014852523804px;
+    text-align: left;
+    margin-bottom: 100px;
+    margin-left: 20px;
+    
+}
+
+.hero-section .home-page-button {
+    margin-left: 20px;
+}
+
+/* Testimonial Section */
+
+section {
+    margin-top: 160px;
+}
+
+h2 {
+    font-family: Roboto, serif;
+    font-size: 34px;
+    font-weight: bold;
+    line-height: 34px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: var(--dark-color);
+    margin: 0;
+
+}
+
+section p {
+    font-family: Roboto, serif;
+    font-size: 15px;
+    font-weight: normal;
+    color: var(--dark-color);
+    margin: 12px 0;
+    display: flex;
+}
+
+section 
